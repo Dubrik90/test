@@ -45,7 +45,7 @@ if (!error_get_last()) {
 
     // Получатель письма
     $mail->addAddress('dubrik90@yandex.by');
-    $mail->addAddress('vitaliam87@yandex.by'); // Ещё один, если нужен
+   // $mail->addAddress('vitaliam87@yandex.by'); // Ещё один, если нужен
 
     // Прикрипление файлов к письму
     /*if (!empty($file['name'][0])) {
